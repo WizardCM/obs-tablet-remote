@@ -5,6 +5,7 @@ import Grid from './grid'
 import Iframe from './iframe'
 import Invalid from './invalid'
 import Scenes from './scenes'
+import SceneCollection from './scenecollection'
 import Sources from './sources'
 import Mixer from './mixer'
 import Stream from './stream'
@@ -16,6 +17,7 @@ const components = {
 	Iframe,
 	Invalid,
 	Scenes,
+	SceneCollection,
 	Sources,
 	Mixer,
 	Transitions,

@@ -55,6 +55,12 @@
 			type: 'Scenes'
 		},
 		{
+			name: 'Scene collection Switcher',
+			description: 'Switch the current scene collection',
+			icon: 'video_label',
+			type: 'SceneCollection'
+		},
+		{
 			name: 'Sources List',
 			description: 'Toggle sources on and off',
 			icon: 'view_list',
