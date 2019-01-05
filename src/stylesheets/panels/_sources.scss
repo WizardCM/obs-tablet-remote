@@ -9,6 +9,8 @@
 		text-align: center;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		background-color: darken($medium-grey,70%);
+		color: $main-color;
 	}
 
 	& > .sources {
@@ -18,7 +20,7 @@
 		overflow-y: auto;
 
 		& > .source {
-			border: none;
+			/*border: none;*/
 			flex: 0 0 auto;
 			overflow: hidden;
 			text-overflow: ellipsis;

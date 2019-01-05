@@ -211,15 +211,9 @@ function socketOnClose(event) {
 function handleCallback(id, message) {
 	const promise = this._promises[id]
 	if (promise) {
-		if (message.status === 'error') {
-			promise.reject(new Error(message.error))
-		} else {
-			promise.resolve(message)
-		}
+		promise.resolve(message)
 		delete this._promises[id]
-	} else if (message.status === 'error') {
-		this.emit('error', message.error, message)
-	}
+	} 
 }
 
 /**

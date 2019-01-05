@@ -1,4 +1,5 @@
 .dashboard {
+	background-color: darken($medium-grey,70%);
 	flex-direction: column;
 
 	&-tabs {
